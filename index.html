@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Lucas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Mi
+            <span>Portafolio</span>
+        </a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#services">Servicios</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#education">Educacion</a>
+            <a href="#contact">Contacto</a>
+        </nav>        
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Bienvenidos</h1>
+            <h2>Soy <span>Sergio Lucas</span></h2>
+            <h3 class="text-animation"><span class="auto-type"></span></h3>
+            <p>Cordial saludo, mi nombre es Sergio Lucas, soy ingeniero de sistemas, me gradue en el año 2022
+                y en los ultimos años me he encontrado desarrollando diversos proyectos relacionados a páginas
+                web y aplicaciones moviles, asi mismo tambien realizo mantenimiento preventivo a computadores
+                para su correcto funcionamiento, siempre me encuentro en continuo aprendizaje para estar siempre
+                al día y seguir creciendo en el ambito profesional.
+            </p>
+
+            <div class="social-icons">                
+                <a href="https://www.facebook.com/andres.quiroga099/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/+573008424560" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/sergiolukas99/" target="_blank"><i class="fa-brands fa-instagram"></i></a>    
+                <a href="https://www.youtube.com/channel/UC3daW9WwZq0b93l6stoZSLQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>        
+                <a href="https://www.linkedin.com/in/sergio-andrés-lucas-quiroga-ba9b01266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>                
+                <a href="https://github.com/SergioLucas099" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+
+            <a href="CV.pdf" target="_blank" class="btn">Descargar CV
+                <i class="fa-solid fa-briefcase"></i>
+            </a>        
+        </div>
+
+        <div class="home-img">
+            <img src="img/img.jpg" alt="img1">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Servicios</h2>
+
+        <div class="service-container">                                 
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Desarrollador Web</h3>
+                <p>Creacion de paginas web responsivas mediante el uso de Html, Css, JavaScript, TypeScript, React JS, Angular</p>                
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Desarrollador Móvil</h3>
+                <p>Creacion de aplicaciones moviles mediante el uso de Android Studio con Java y Kotlin, Flutter, React Native y base de datos firebase</p>                
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Mantenimiento preventivo</h3>
+                <p>Mantenimiento y limpieza de computador, mediante el uso de herramientas para el hardware y software</p>                
+            </div>
+        </div>
+    </section>    
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Proyectos</h2>
+
+        <div class="fillter-buttons">
+            <button class="btn" data-filter="all">Todos</button>
+            <button class="btn" data-filter=".movil">App movil</button>
+            <button class="btn" data-filter=".sft">Software</button>
+            <button class="btn" data-filter=".web">Web App</button>
+            <button class="btn" data-filter=".anim">Animación 3D</button>
+        </div>
+
+        <div class="projects-container">           
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Lacteos App.png" alt="img1">
+                </div>
+                <div class="port-content">
+                    <h3>Lacteos App</h3>
+                    <div class="center-object">
+                        <a href="https://youtu.be/ZQVWvboMODY" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                        <a href="https://github.com/SergioLucas099/Lactimuu_App" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Find Teacher.png" alt="img2">
+                </div>
+                <div class="port-content">
+                    <h3>Find Teacher App</h3>
+                    <a href="https://github.com/SergioLucas099/Find_Teacher_App" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Raquirapp.png" alt="img3">
+                </div>
+                <div class="port-content">
+                    <h3>Raquira app</h3>
+                    <div class="center-object">
+                        <a href="https://github.com/SergioLucas099/Raquira_App" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.turismo_boyaca.raquirapp" target="_blank"><i class='bx bxl-play-store'></i></a>
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Milk Inventory.png" alt="img4">
+                </div>
+                <div class="port-content">
+                    <h3>Milk Inventory App</h3>
+                    <a href="https://github.com/SergioLucas099/Control_pedidos_lacteos_app" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+
+            <div class="port-box mix web">
+                <div class="port-image">
+                    <img src="img/sitio web presupuesto.PNG" alt="img5">
+                </div>
+                <div class="port-content">
+                    <h3>Página Web Presupuesto</h3>
+                    <div class="center-object">
+                        <a href="https://pagina-web-presupuesto.firebaseapp.com" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/SergioLucas099/Sitio-Web-Presupuesto" target="_blank"><i class='bx bxl-github' ></i></a>            
+                    </div>                       
+                </div>
+            </div>
+
+            <div class="port-box mix anim">
+                <div class="port-image">
+                    <img src="img/blender.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Documental en 3D</h3>
+                    <a href="https://youtu.be/je7N2a6BR9E" target="_blank"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+
+            <div class="port-box mix web">
+                <div class="port-image">
+                    <img src="img/Hidro CundiBoy.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Hidro CundiBoy</h3>
+                    <div class="class="center-object"">
+                        <a href="https://sergiolucas099.github.io/Hidro-CundiBoy/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/SergioLucas099/Hidro-CundiBoy" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Los Olivos Principal.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Control Inventario Los Olivos - Principal</h3>
+                    <div class="class="center-object"">
+                        <a href="https://github.com/SergioLucas099/Control-los-olivos-principal" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-box mix movil">
+                <div class="port-image">
+                    <img src="img/Los Olivos Movil.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Control Inventario Los Olivos - Movil</h3>
+                    <div class="class="center-object"">
+                        <a href="https://github.com/SergioLucas099/Control-Inventario-los-Olivos-Movil" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-box mix sft">
+                <div class="port-image">
+                    <img src="img/Gestor HSD.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Gestor Hogar Santo Domingo</h3>
+                    <div class="class="center-object"">
+                        <a href="https://github.com/SergioLucas099/Programa_Hogar_Santo_Domingo" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="port-box mix sft">
+                <div class="port-image">
+                    <img src="img/control parqueadero.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Control Parqueadero</h3>
+                    <div class="class="center-object"">
+                        <a href="https://github.com/SergioLucas099/Control_Parqueadero_Quiroga" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-box mix sft">
+                <div class="port-image">
+                    <img src="img/cuentas cobro contratistas.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Cuentas Conbro Contratistas</h3>
+                    <div class="class="center-object"">
+                        <a href="https://github.com/SergioLucas099/Cuentas-Cobro-Contratistas" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-box mix web">
+                <div class="port-image">
+                    <img src="img/FSR.PNG" alt="img6">
+                </div>
+                <div class="port-content">
+                    <h3>Página Web Fundación Santa Rosa</h3>
+                    <a href="https://fundacionsantarosa.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-section" id="education">
+        <h2 class="heading">Educación</h2> 
+        
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Unisangil</h3>
+                    <p>Termine mi programa de pregrado en la Fundación Universitaria 
+                    de San Gil Unisangil sede Chiquinquirá como Ingeniero de Sistemas</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Cursos Udemy</h3>
+                    <p>Empiezo a aprender nuevas herramientas de desarrollo en la plataforma
+                    Udemy para estar al dia con todo lo necesario en el desarrollo Movil y Web
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Auxiliar de mantenimiento</h3>
+                    <p>Durante 2 meses empece a realizar mantenimento preventivo de portatiles
+                    mediante la limpieza del hardware y a su vez formatear, instalar o clonar 
+                    el sistema operativo del equipo</p>
+                </div>
+            </div>            
+        </div>              
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contacto</h2>
+
+        <form action="https://formsubmit.co/slucasquiroga@gmail.com" method="POST">
+
+            <div class="input-box">
+                <input type="text"
+                name="name"
+                placeholder="Nombre Completo">
+                <input type="email"
+                name="email"
+                placeholder="Correo Electronico">
+            </div>
+            <div class="input-box">
+                <input type="number"
+                name="number"
+                placeholder="Número Telefonico">
+                <input type="text"
+                name="text"
+                placeholder="Asunto">
+            </div>
+
+            <textarea name="message" id="" cols="30"
+            rows="10" placeholder="Su mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje"
+            class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/andres.quiroga099/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/+573008424560" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/sergiolukas99/" target="_blank"><i class="fa-brands fa-instagram"></i></a>       
+            <a href="https://www.youtube.com/channel/UC3daW9WwZq0b93l6stoZSLQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>      
+            <a href="https://www.linkedin.com/in/sergio-andrés-lucas-quiroga-ba9b01266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>                
+            <a href="https://github.com/SergioLucas099" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+        
+        <p class="copyright">
+            © 2024 - Sergio Lucas
+        </p>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings : ['Ingeniero de Sistemas',
+            'Desarrollador Front End',
+            'Desarrollador Apps Moviles',
+            'Animación 3D',
+            'Mantenimiento de equipos'],
+            typeSpeed : 100,
+            backSpeed : 100,
+            backDelay : 1000,
+            loop : true
+        });
+    </script>
+</body>
+</html>
