@@ -268,7 +268,7 @@
                 <div class="port-content">
                     <h3 style="color: rgb(0, 0, 0);">Página Web Proyecto Investigativo</h3>
                     <div class="class="center-object"">
-                        <a href="https://sergiolucas099.github.io/talleres_proyecto_investigativo.github.io/" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="https://sergiolucas099.github.io/talleres_proyecto_investigativo.github.io/" target="_blank"><i class='bx bx-link-external' ></i></a>
                     </div>
                 </div>
             </div>
@@ -356,7 +356,7 @@
         </div>
         
         <p class="copyright">
-            © 2024 - Sergio Lucas
+            © <span id="year" style="color: white;"></span> - Ing. Sergio Lucas
         </p>
     </footer>
 
@@ -375,6 +375,8 @@
             backDelay : 1000,
             loop : true
         });
+
+        document.getElementById("year").textContent = new Date().getFullYear(); //Obtener año
     </script>
 </body>
 </html>
